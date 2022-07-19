@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: azo-sans-web, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5vw;
+}
+
+nav img {
+    height: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav .logo {
+    padding: 0;
+}
+
+.rightNav {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    padding: 20px 20vw;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10vh 0;
+    overflow: hidden;
+}
+
+#main img {
+    width: 800px;
+    max-width: 40vw;
+}
+
+#wanderlustMain {
+    margin-right: 40px;
+}
+
+#wanderlustMain h1 {
+    font-size: 5em;
+    font-family: nelson, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+}
+
+#wanderlustMain p {
+    margin: 0 0 3em 0;
+    max-width: 500px;
+}
+
+#wanderlustMain .btn {
+    margin-right: 30px;
+}
+
+.btn {
+    background-color: #FF9D00;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.btn.secondary {
+    background-color: #FFECDC;
+    color: #FF9D00;
+}
+
+#quote {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #FF9D00;
+}
+
+#social a {
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 30px;
+}
+
+#social i {
+    margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+    nav {
+        padding: 20px 5px;
+    }
+    .container {
+        padding: 20px 10px;
+    }
+    #main {
+        flex-direction: column-reverse;
+        margin: 2vh 0;
+    }
+    #main img {
+        width: 98vw;
+        max-width: 750px;
+        margin-bottom: 40px;
+    }
+    #wanderlustMain {
+        margin-right: 0;
+    }
+    #wanderlustMain h1 {
+        font-size: 2em;
+    }
+    #wanderlustMain .btn {
+        display: block;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    #social {
+        flex-direction: column;
+        padding: 40px 0;
+    }
+
+    #social a {
+        padding: 10px 0;
+    }
+}
