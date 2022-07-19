@@ -80,7 +80,7 @@ nav .logo {
 }
 
 .btn {
-    background-color: #FF9D00;
+    background-color: #24711F;
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -89,8 +89,8 @@ nav .logo {
 }
 
 .btn.secondary {
-    background-color: #FFECDC;
-    color: #FF9D00;
+    background-color: #E0EFD8;
+    color: #24711F;
 }
 
 #quote {
@@ -106,7 +106,7 @@ nav .logo {
     justify-content: center;
     align-items: center;
     height: 80px;
-    background-color: #FF9D00;
+    background-color: #24711F;
 }
 
 #social a {
