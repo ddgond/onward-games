@@ -1,0 +1,19 @@
+# Privacy Policy for GPT Text Replacer Chrome Extension
+Last updated: March 17, 2023
+
+This privacy policy outlines the types of information that the GPT Text Replacer Chrome Extension ("Extension") collects and how we use that information. By using the Extension, you agree to the collection and use of information in accordance with this policy.
+
+# Information Collection and Use
+The Extension does not collect any personally identifiable information. The only data collected and used by the Extension is the data you provide within the Extension's interface, such as your OpenAI API key and the selected model. This data is stored locally on your device using Chrome's storage sync API and is not transmitted to any server or third party.
+
+# The Extension uses the OpenAI API to process text based on your input. When you use the Extension to replace text, the selected text and the system prompt you provide are sent to the OpenAI API. OpenAI's use of your data is governed by their privacy policy, which can be found at https://openai.com/policies/privacy-policy.
+
+# Security
+The security of your data is important to us, but remember that no method of transmission over the internet or electronic storage is 100% secure. While we strive to protect your data by storing it locally on your device and using HTTPS for communication with the OpenAI API, we cannot guarantee its absolute security.
+
+# Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+# Contact Us
+If you have any questions or concerns about this Privacy Policy, please contact us:
+- By email: dan@onward.games
